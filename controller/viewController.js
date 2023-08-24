@@ -1,5 +1,5 @@
 const catchAsync = require("../utils/catchAsync");
-const AppError = require("../utils/AppError");
+const AppError = require("../utils/appError");
 const Tour = require("./../model/tourModel");
 const Booking = require("../model/bookingsModel");
 const Review = require("../model/reviewModel");

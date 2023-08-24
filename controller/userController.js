@@ -1,6 +1,6 @@
 const catchAsync = require("../utils/catchAsync");
 const User = require("../model/userModel");
-const AppError = require("../utils/AppError");
+const AppError = require("../utils/appError");
 const factory = require("./handleFactory");
 const APIFeatures = require("../utils/apiFeatures");
 const multer = require("multer");

@@ -1,6 +1,6 @@
 const Booking = require("../model/bookingsModel");
 const Review = require("../model/reviewModel");
-const AppError = require("../utils/AppError");
+const AppError = require("../utils/appError");
 const catchAsync = require("./../utils/catchAsync");
 const factory = require("./handleFactory");
 

@@ -14,7 +14,7 @@ const reviewRoute = require("./routes/reviewRoute");
 const bookingRoute = require("./routes/bookingRoute");
 const viewRoute = require("./routes/viewRoute");
 const errorController = require("./controller/errorController");
-const AppError = require("./utils/AppError");
+const AppError = require("./utils/appError");
 
 const app = express();
 app.set("view engine", "pug");
