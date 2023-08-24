@@ -1,0 +1,51 @@
+{
+  "name": "tours-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:prod": "NODE_ENV=prodction nodemon server.js",
+    "watch:js": "parcel watch ./public/index.js --out-dir ./public/js --out-file bundle.js",
+    "build:js": "parcel watch ./public/index.js --out-dir ./public/js --out-file bundle.js",
+    "debug": "ndb server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.8.0",
+    "helmet": "^7.0.0",
+    "hpp": "^0.2.3",
+    "html-to-text": "^9.0.5",
+    "jsonwebtoken": "^9.0.1",
+    "mapbox-gl": "^2.15.0",
+    "mongoose": "^5.13.19",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.4",
+    "passport": "^0.5.0",
+    "passport-google-oauth20": "^2.0.0",
+    "pug": "^3.0.2",
+    "sharp": "^0.32.4",
+    "slugify": "^1.6.6",
+    "stripe": "^7.0.0",
+    "validator": "^13.9.0",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
