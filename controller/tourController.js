@@ -9,7 +9,6 @@ const sharp = require("sharp");
 const multerStorage = multer.memoryStorage();
 
 const multerFilter = (req, file, cb) => {
-  console.log(file);
   if (file.mimetype.startsWith("image")) {
     cb(null, true);
   } else {
